@@ -3,8 +3,65 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
+  color: #030405;
 }
+p {
+  margin: 0;
+  padding: 1em;
+}
+div {
+  margin: 0;
+}
+h1 {
+  font-size: 4.5em;
+}
+a {
+  text-decoration: none;
+}
+.fxBoxFadeDoDen {
+  color: #030405;
+}
+.fxBoxFadeDoDen a {
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
 
+    rgba(153, 0, 0, 1),
+    rgba(153, 0, 0, 0.5),
+    rgba(3, 4, 5, 0.8)
+  );
+  border: solid #990000 2px;
+}
+/* ================
+    CLASS MAU CHU
+===================*/
+.mauKem {
+  color: #f9ffd7;
+}
+.mauDo {
+  color: #9f302c;
+}
+.mauDoDo {
+  color: #990000;
+}
+.mauVangDong {
+  color: #c39a55;
+}
+.mauVang {
+  color: #cc9933;
+}
+.mauTrangKem {
+  color: #f8f3e9;
+}
+.mauXanhReu {
+  color: #68745b;
+}
+.mauBe {
+  color: #a08e73;
+}
+.mauDen {
+  color: #030405;
+}
 /* ==========
     FONTS
 =============*/
