@@ -18,22 +18,13 @@ h1 {
 a {
   text-decoration: none;
 }
-.fxBoxFadeDoDen {
-  color: #030405;
-}
-.fxBoxFadeDoDen a {
-  padding: 10px;
-  background-image: linear-gradient(
-    to right,
 
-    rgba(153, 0, 0, 1),
-    rgba(153, 0, 0, 0.5),
-    rgba(3, 4, 5, 0.8)
-  );
-  border: solid #990000 2px;
-}
 /* ================
     CLASS MAU CHU
+  Fade màu 1: #2f1104 và #030405
++ Fade màu 2: #041c2f và #c39a55
++ Fade màu 3: #030405 và #1d1f26
++ Fade màu 4: #041d2f và #68745b
 ===================*/
 .mauKem {
   color: #f9ffd7;

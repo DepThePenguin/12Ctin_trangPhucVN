@@ -1,0 +1,104 @@
+.nenCoGaiDoiNon {
+  padding: 1em;
+  background-image: url("../images/coGaiDoiNonDo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nenCoGaiDoiNon p {
+  margin: 0;
+  padding: 0;
+}
+.veChungToi div {
+  padding: 1em;
+  background-color: #f9ffd7;
+  font-family: "ABeeZee";
+}
+
+.nenCoGaiKoDoiNonTC {
+  padding: 1em;
+  background-image: url("../images/coGaiKoDoiNonTC.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  font-weight: 100;
+  font-family: "ABeeZee";
+}
+/* ================
+    CLASS NUT BAM
+===================*/
+.boxTrongSuot a {
+  color: #f8f3e9;
+  font-weight: bold;
+  padding: 1.5em 3em;
+  background-image: linear-gradient(
+    to right,
+
+    rgba(192, 192, 192, 0.2)
+  );
+  border: solid rgba(204, 153, 51, 0.9) 3px;
+}
+.boxTrongSuot a:hover {
+  background-image: linear-gradient(
+    to right,
+
+    #c39a55
+  );
+  border: solid rgba(204, 153, 51, 0.9) 3px;
+  color: black;
+}
+
+.boxFadeDoDen a {
+  padding: 1.5em 3em;
+  background-image: linear-gradient(
+    to right,
+
+    rgba(159, 48, 44, 1),
+    rgba(159, 48, 44, 0.9),
+    rgba(3, 4, 5, 0.9)
+  );
+  border: solid #9f302c 3px;
+}
+.boxFadeDoDen a:hover {
+  background-image: linear-gradient(
+    to right,
+
+    #9f302c
+  );
+  border: solid #9f302c 3px;
+  font-weight: bold;
+}
+
+/* ================
+    SAVES
+     <div class="nenCoGaiDoiNon" style="height: 768px">
+      <p class="Kage">"test"</p>
+      <p class="CocoGothic">"test"</p>
+      <p class="Anton">"test"</p>
+      <p class="Alice">"test"</p>
+      <p class="AlexBrush">"test"</p>
+      <p class="imbue72pt">"test"</p>
+      <p class="ABeeZee">"test"</p>
+      <div class="boxTrongSuot">
+        <a class=" " href="">DANG KY</a> <a class=" " href="">DANG KY</a>
+      </div>
+    </div>
+    <div class="veChungToi mauXanhReu">
+      <div>
+        <!--VIET VE CHUNG TOI O DAY-->
+        <h3>GIOI THIEU</h3>
+        VE CHUNG TOI
+        <h1 class="mauDen Alice">VỀ CHÚNG TÔI</h1>
+        <ul>
+          <li>a</li>
+          <li>a</li>
+          <li>a</li>
+        </ul>
+      </div>
+    </div>
+    <div class="nenCoGaiKoDoiNonTC" style="height: 243px">
+      <div class="boxFadeDoDen">
+        <a class="mauTrangKem" href="">DANG KY</a>
+      </div>
+    </div>
+    ================*/
