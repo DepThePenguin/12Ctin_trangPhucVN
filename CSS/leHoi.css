@@ -1,0 +1,24 @@
+.header {
+  padding: 1em;
+  background-image: linear-gradient(
+    to bottom,
+
+    #521816,
+    #9f302c
+  );
+}
+.footer {
+  padding: 1em;
+  background-image: linear-gradient(
+    to bottom,
+
+    #68745b,
+    #292e24
+  );
+}
+.nenDo {
+  background-color: #9f302c;
+}
+.nenXanhReu {
+  background-color: #68745b;
+}
