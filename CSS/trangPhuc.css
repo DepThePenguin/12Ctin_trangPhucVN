@@ -41,7 +41,7 @@ body {
   background-image: linear-gradient(
     to right,
 
-    rgba(3, 4, 5, 0.9)
+    #9f302c
   );
   border: solid rgba(159, 48, 44, 0.9) 3px;
   border-radius: 40px;
@@ -50,7 +50,26 @@ body {
   background-image: linear-gradient(
     to right,
 
-    #9f302c
+    rgba(3, 4, 5, 0.7)
   );
-  border: solid #9f302c 3px;
+  border: solid rgba(159, 48, 44, 0.8) 3px;
 }
+
+/* ================
+    SAVES
+===================
+<div class="header">
+      <a href="../index.html">TRANG CHU</a>
+</div>
+
+<div class="boxDoDen">
+    <a href="../HTML/aoDai.html">ÁO DÀI</a>
+</div>
+
+<a class="doDen" href="">THE A</a>
+
+<footer class="footer">
+      <p>Copyright © 2024 - Designed by Ngoc An</p>
+</footer>
+
+*/

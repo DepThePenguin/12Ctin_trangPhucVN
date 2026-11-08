@@ -20,10 +20,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-h3 {
-  font-weight: 100;
-  font-family: "ABeeZee";
-}
+
 /* ================
     CLASS NUT BAM
 ===================*/
@@ -37,6 +34,7 @@ h3 {
     rgba(192, 192, 192, 0.2)
   );
   border: solid rgba(204, 153, 51, 0.9) 3px;
+  overflow: hidden;
 }
 .boxTrongSuot a:hover {
   background-image: linear-gradient(
@@ -57,15 +55,15 @@ h3 {
     rgba(159, 48, 44, 0.9),
     rgba(3, 4, 5, 0.9)
   );
-  border: solid #9f302c 3px;
+  border: solid rgba(159, 48, 44, 1) 3px;
 }
 .boxFadeDoDen a:hover {
   background-image: linear-gradient(
     to right,
 
-    #9f302c
+    rgba(159, 48, 44, 1)
   );
-  border: solid #9f302c 3px;
+  border: solid rgba(159, 48, 44, 1) 3px;
   font-weight: bold;
 }
 

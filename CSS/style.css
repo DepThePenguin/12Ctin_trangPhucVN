@@ -12,6 +12,11 @@ p {
 div {
   margin: 0;
 }
+hr {
+  margin: 0;
+  padding: 0;
+  border: solid white 0.1px;
+}
 h1 {
   font-size: 4.5em;
 }
