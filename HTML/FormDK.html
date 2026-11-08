@@ -10,82 +10,84 @@
   </head>
   <body>
     <img src="../images/coGaiKoDoiNonTC.png">
-    <fieldset>
-      <h1>
-        NGÀY HỘI GIỚI THIỆU VỀ TRANG PHỤC TRUYỀN THỐNG CỦA MỘT SỐ DÂN TỘC VIỆT NAM
-      </h1>
-      <p><i>Biểu mẫu đăng ký tham gia ngày hội - by Tổ 2-12CTIN</i></p>
-    </fieldset>
+    <form>
+      <fieldset>
+        <h1>
+          NGÀY HỘI GIỚI THIỆU VỀ TRANG PHỤC TRUYỀN THỐNG CỦA MỘT SỐ DÂN TỘC VIỆT NAM
+        </h1>
+        <p><i>Biểu mẫu đăng ký tham gia ngày hội - by Tổ 2-12CTIN</i></p>
+      </fieldset>
 
-    <fieldset>
-      <legend><b>THÔNG TIN CÁ NHÂN</b></legend>
-      <p><i>Vui lòng nhập đầy đủ để bọn mình sắp xếp thật chu đáo nhaa</i></p>
-      <p>
-        <label for="name"> Họ và tên người tham gia *</label>
-        <br>
-        <input type="text" id="name" placeholder="Nguyễn Văn A" required>
-      </p>
-      <p>
-        <label for="birth"> Ngày sinh *</label>
-        <br>
-        <input type="date" id="birth" required>
-      </p>
-      <p>
-        Giới tính *
-        <br>
-        <input type="radio" name="gioitinh" id="nam" value="nam" required>
-        <label for="nam">Nam</label>
-        <br>
-        <input type="radio" name="gioitinh" id="nu" value="nu">
-        <label for="nu">Nữ</label>
-        <br>
-        <input type="radio" name="gioitinh" id="none" value="none">
-        <label for="none">Không muốn nêu cụ thể</label>
-      </p>
-      <p>
-        <label for="school"> Trường học/đơn vị công tác *</label>
-        <br>
-        <input type="text" id="school" placeholder="THPT Gia Định" required>
-      </p>
-    </fieldset>
+      <fieldset>
+        <legend><b>THÔNG TIN CÁ NHÂN</b></legend>
+        <p><i>Vui lòng nhập đầy đủ để bọn mình sắp xếp thật chu đáo nhaa</i></p>
+        <p>
+          <label for="name"> Họ và tên người tham gia *</label>
+          <br>
+          <input type="text" id="name" placeholder="Nguyễn Văn A" required>
+        </p>
+        <p>
+          <label for="birth"> Ngày sinh *</label>
+          <br>
+          <input type="date" id="birth" required>
+        </p>
+        <p>
+          Giới tính *
+          <br>
+          <input type="radio" name="gioitinh" id="nam" value="nam" required>
+          <label for="nam">Nam</label>
+          <br>
+          <input type="radio" name="gioitinh" id="nu" value="nu">
+          <label for="nu">Nữ</label>
+          <br>
+          <input type="radio" name="gioitinh" id="none" value="none">
+          <label for="none">Không muốn nêu cụ thể</label>
+        </p>
+        <p>
+          <label for="school"> Trường học/đơn vị công tác *</label>
+          <br>
+          <input type="text" id="school" placeholder="THPT Gia Định" required>
+        </p>
+      </fieldset>
 
-    <fieldset>
-      <legend><b>THÔNG TIN LIÊN LẠC</b></legend>
-      <p><i>Để tụi mình có thể thông báo cho bạn những thông tin quan trọng nèe</i></p>
-      <p>
-        <label for="mail">Địa chỉ email *</label>
-        <br>
-        <input type="email" id="mail" required>
-      </p>
-      <p>
-        <label for="sdt">Số điện thoại *</label>
-        <br>
-        <input type="tel" id="sdt" required>
-      </p>
-    </fieldset>
+      <fieldset>
+        <legend><b>THÔNG TIN LIÊN LẠC</b></legend>
+        <p><i>Để tụi mình có thể thông báo cho bạn những thông tin quan trọng nèe</i></p>
+        <p>
+          <label for="mail">Địa chỉ email *</label>
+          <br>
+          <input type="email" id="mail" required>
+        </p>
+        <p>
+          <label for="sdt">Số điện thoại *</label>
+          <br>
+          <input type="tel" id="sdt" required>
+        </p>
+      </fieldset>
 
-    <fieldset>
-      <legend><b>NỘI DUNG ĐĂNG KÝ</b></legend>
-      <p>
-        <label for="ndung"> Nội dung đăng ký * </label>
-        <br>
-        <select id="ndung" required>
-          <option value="">-- Vui lòng chọn --</option>
-          <option value="vis">Vé tham quan</option>
-          <option value="adult">Vé trải nghiệm trang phục - Người lớn (100.000vnđ/vé)</option>
-          <option value="kid">Vé trải nghiệm trang phục - Trẻ em (50.000vnđ/vé)</option>    
-          <option value="des">Tham gia cuộc thi thiết kế trang phục</option>
-          <option value="show">Tham gia cuộc thi trình diễn thời gian</option>                
-          <option value="vol">Đăng ký làm tình nguyện viên hỗ trợ sự kiện</option>                
-        </select>
-      </p>
-      <p>
-        <label for="khac">Bạn còn lời nào muốn nhắn nhủ với chúng mình không?</label>
-        <br>
-        <textarea id="khac"></textarea>
-      </p>
-    </fieldset>
-    <input type="submit" value="Xác nhận đăng ký">
-    <input type="reset" value="Nhập lại">
+      <fieldset>
+        <legend><b>NỘI DUNG ĐĂNG KÝ</b></legend>
+        <p>
+          <label for="ndung"> Nội dung đăng ký * </label>
+          <br>
+          <select id="ndung" required>
+            <option value="">-- Vui lòng chọn --</option>
+            <option value="vis">Vé tham quan</option>
+            <option value="adult">Vé trải nghiệm trang phục - Người lớn (100.000vnđ/vé)</option>
+            <option value="kid">Vé trải nghiệm trang phục - Trẻ em (50.000vnđ/vé)</option>    
+            <option value="des">Tham gia cuộc thi thiết kế trang phục</option>
+            <option value="show">Tham gia cuộc thi trình diễn thời gian</option>                
+            <option value="vol">Đăng ký làm tình nguyện viên hỗ trợ sự kiện</option>                
+          </select>
+        </p>
+        <p>
+          <label for="khac">Bạn còn lời nào muốn nhắn nhủ với chúng mình không?</label>
+          <br>
+          <textarea id="khac"></textarea>
+        </p>
+      </fieldset>
+      <input type="submit" value="Xác nhận đăng ký">
+      <input type="reset" value="Nhập lại">
+    </form>  
   </body>
 </html>
