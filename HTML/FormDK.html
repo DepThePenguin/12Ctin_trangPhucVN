@@ -21,12 +21,12 @@
       <legend><b>THÔNG TIN CÁ NHÂN</b></legend>
       <p><i>Vui lòng nhập đầy đủ để bọn mình sắp xếp thật chu đáo nhaa</i></p>
       <p>
-        <lable for="name"> Họ và tên người tham gia *</lable>
+        <label for="name"> Họ và tên người tham gia *</label>
         <br>
         <input type="text" id="name" placeholder="Nguyễn Văn A" required>
       </p>
       <p>
-        <lable for="birth"> Ngày sinh *</lable>
+        <label for="birth"> Ngày sinh *</label>
         <br>
         <input type="date" id="birth" required>
       </p>
@@ -43,7 +43,7 @@
         <label for="none">Không muốn nêu cụ thể</label>
       </p>
       <p>
-        <lable for="school"> Trường học/đơn vị công tác *</lable>
+        <label for="school"> Trường học/đơn vị công tác *</label>
         <br>
         <input type="text" id="school" placeholder="THPT Gia Định" required>
       </p>
@@ -53,12 +53,12 @@
       <legend><b>THÔNG TIN LIÊN LẠC</b></legend>
       <p><i>Để tụi mình có thể thông báo cho bạn những thông tin quan trọng nèe</i></p>
       <p>
-        <lable for="mail">Địa chỉ email *</lable>
+        <label for="mail">Địa chỉ email *</label>
         <br>
         <input type="email" id="mail" required>
       </p>
       <p>
-        <lable for="sdt">Số điện thoại *</lable>
+        <label for="sdt">Số điện thoại *</label>
         <br>
         <input type="tel" id="sdt" required>
       </p>
@@ -67,9 +67,10 @@
     <fieldset>
       <legend><b>NỘI DUNG ĐĂNG KÝ</b></legend>
       <p>
-        <lable for="ndung"> Nội dung đăng ký * </lable>
+        <label for="ndung"> Nội dung đăng ký * </label>
         <br>
         <select id="ndung" required>
+          <option value="">-- Vui lòng chọn --</option>
           <option value="vis">Vé tham quan</option>
           <option value="adult">Vé trải nghiệm trang phục - Người lớn (100.000vnđ/vé)</option>
           <option value="kid">Vé trải nghiệm trang phục - Trẻ em (50.000vnđ/vé)</option>    
@@ -79,7 +80,7 @@
         </select>
       </p>
       <p>
-        <lable for="khac">Bạn còn lời nào muốn nhắn nhủ với chúng mình không?</lable>
+        <label for="khac">Bạn còn lời nào muốn nhắn nhủ với chúng mình không?</label>
         <br>
         <textarea id="khac"></textarea>
       </p>
