@@ -1,0 +1,31 @@
+body {
+  margin: 5em;
+  background-color: #f9ffd7;
+}
+fieldset {
+  background-color: white;
+  border: 3px solid #a08e73;
+  margin-bottom: 1em;
+}
+.koVien {
+  background-color: white;
+  border: 0px solid #f9ffd7;
+  margin-bottom: 1em;
+}
+.button {
+  color: rgb(49, 0, 172);
+  font-weight: bold;
+  padding: 0.5em 3em;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 0, 10),
+    rgb(255, 133, 3),
+    rgba(254, 216, 0, 0.5),
+    rgba(43, 255, 0, 0.2),
+    rgb(0, 217, 255),
+    rgb(45, 3, 255),
+    rgba(199, 0, 254, 0.5)
+  );
+  border-radius: 40px;
+  border: 3px solid #f9ffd7;
+}
