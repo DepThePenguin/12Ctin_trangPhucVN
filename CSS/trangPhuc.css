@@ -20,6 +20,75 @@ body {
     #1d1f26
   );
 }
+p,a {
+  font-size: 1.2em;
+}
+ 
+ 
+.tdBenPhaiTP a {
+  padding-left: 4em;
+}
+.tdBenPhaiTP p {
+  padding-left: 7em;
+}
+.chiaDoi td {
+  width: 50%;
+
+  padding-left: 5em;
+  padding-bottom: 4em;
+  margin: 0px;
+}
+td h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+td h1 {
+  margin: 0px;
+}
+.nenCoGaiCamNon {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/coGaiCamNon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translateX(-1%);
+}
+.tdBenPhaiTP {
+  position: relative;
+  transform: translateX(-20%);
+  z-index: 10;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 4, 5, 0.01),
+    rgba(3, 4, 5, 0.5),
+    rgba(3, 4, 5, 0.8),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1),
+    rgba(3, 4, 5, 1)
+  );
+}
 /* ================
     CLASS a
 ===================*/
@@ -27,7 +96,7 @@ body {
 .doDen {
   font-family: "Kage";
   font-size: 2em;
-  color: #990000;
+  color: #f40000;
 }
 .doDen:hover {
   color: #f8f3e9;
@@ -53,6 +122,58 @@ body {
     rgba(3, 4, 5, 0.7)
   );
   border: solid rgba(159, 48, 44, 0.8) 3px;
+}
+body {
+  margin: 0; /* Xóa khoảng cách mặc định của trình duyệt để ảnh chạm sát viền */
+}
+/* ================
+    CLASS TRUOT
+===================*/
+.khungTruot {
+  width: 100%;
+  overflow: hidden; /* Ẩn ảnh khi nó đang nằm ngoài màn hình bên phải */
+  position: relative;
+  background-image: url("../images/Trangphucfx.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+
+  margin-top: -2px;
+}
+
+.truot {
+  background-image: linear-gradient(
+    to right,
+    rgba(159, 48, 44, 0.01),
+    rgba(159, 48, 44, 0.1),
+    rgba(159, 48, 44, 0.8),
+    rgba(159, 48, 44, 1),
+    rgba(159, 48, 44, 1),
+    rgba(159, 48, 44, 1),
+    rgba(159, 48, 44, 0.8),
+    rgba(159, 48, 44, 0.4),
+    rgba(159, 48, 44, 0.1),
+    rgba(159, 48, 44, 0.01)
+  );
+
+  width: 50%;
+  animation: slideLeft 3s ease-out 1;
+  padding: 1em;
+  padding-left: 9em;
+  padding-right: 9em;
+  margin: 0px;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideLeft {
+  0% {
+    /* Xuất phát hoàn toàn từ bên ngoài màn hình bên phải */
+    transform: translateX(90vw);
+  }
+  100% {
+    /* Dừng lại ngay vị trí gốc (sát viền trái trang web) */
+    transform: translateX(-550px);
+  }
 }
 
 /* ================
