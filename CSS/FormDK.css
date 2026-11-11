@@ -1,14 +1,22 @@
 body {
-  margin: 10em;
-  margin-top: 3em;
   background-color: #f9ffd7;
   color: #030405;
   font-family: "AlexBrush";
 }
+legend {
+  text-align: center;
+  font-family: "Anton";
+}
 fieldset {
+  padding: 0px;
   background-color: white;
   border: 3px solid #a08e73;
+  margin: 15em;
+  margin-top: 0em;
   margin-bottom: 1em;
+}
+h1 {
+  text-align: center;
 }
 .koVien {
   background-color: white;
