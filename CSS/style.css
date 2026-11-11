@@ -9,9 +9,14 @@ body {
 footer {
   padding-top: 110px;
 }
-div {
-  border: solid black 4px;
+table,
+tr,
+td,
+th,
+tbody {
+  margin: 0px;
 }
+
 p {
   margin: 0;
   padding: 1em;
