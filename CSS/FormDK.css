@@ -1,6 +1,9 @@
 body {
-  margin: 5em;
+  margin: 10em;
+  margin-top: 3em;
   background-color: #f9ffd7;
+  color: #030405;
+  font-family: "AlexBrush";
 }
 fieldset {
   background-color: white;
