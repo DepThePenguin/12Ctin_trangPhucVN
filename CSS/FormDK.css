@@ -1,27 +1,63 @@
 body {
-  background-color: #f9ffd7;
+  background-color: #fcffea;
   color: #030405;
-  font-family: "AlexBrush";
+  font-family: "Times New Roman", Times, serif;
 }
+
 legend {
-  text-align: center;
   font-family: "Anton";
+  font-size: 2em;
+  color: #533306;
 }
+i {
+  color: rgb(105, 105, 105);
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 0;
+}
+p {
+  font-size: 150%;
+  margin: 5px;
+  padding: 15px;
+}
+
+::placeholder {
+  font-size: 80%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+textarea,
+select,
+input {
+  border: 2px solid #533306;
+  font-size: 70%;
+  background-color: #fcffe9;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #533306;
+}
+
 fieldset {
   padding: 0px;
   background-color: white;
-  border: 3px solid #a08e73;
+  border: 4px solid #a08e73;
   margin: 15em;
   margin-top: 0em;
   margin-bottom: 1em;
-}
-h1 {
-  text-align: center;
+  border-radius: 10px;
 }
 .koVien {
   background-color: white;
   border: 0px solid #f9ffd7;
   margin-bottom: 1em;
+}
+div {
+  margin-left: 15em;
 }
 .button {
   color: rgb(49, 0, 172);
@@ -29,14 +65,21 @@ h1 {
   padding: 0.5em 3em;
   background-image: linear-gradient(
     to bottom,
-    rgb(255, 0, 10),
-    rgb(255, 133, 3),
+    rgba(255, 0, 10, 0.8),
+    rgba(255, 133, 3, 0.8),
     rgba(254, 216, 0, 0.5),
-    rgba(43, 255, 0, 0.2),
-    rgb(0, 217, 255),
-    rgb(45, 3, 255),
+    rgba(43, 255, 0, 0.8),
+    rgba(0, 217, 255, 0.8),
+    rgba(45, 3, 255, 0.8),
     rgba(199, 0, 254, 0.5)
   );
-  border-radius: 40px;
+  border-radius: 20px;
   border: 3px solid #f9ffd7;
+
+  margin: 0px;
+  text-align: center;
+}
+.button:hover {
+  background-color: black;
+  opacity: 90%;
 }
