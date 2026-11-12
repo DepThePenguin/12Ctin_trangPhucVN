@@ -24,7 +24,7 @@
 }
 form {
   background-color: #f9ffd7;
-  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
   border: 1px solid #533306;
   border-radius: 15px;
   color: #533306;
@@ -47,5 +47,10 @@ button {
   border: 1px solid black;
   border-radius: 20px;
   padding: 0.5em 4em;
-  background-color: rgb(255, 86, 24);
+  opacity: 100%;
+  font-weight: bold;
+
+  width: 98%;
+  margin-top: 20px;
+  background-color: rgb(246, 147, 42);
 }

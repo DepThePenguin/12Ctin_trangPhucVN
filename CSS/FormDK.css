@@ -60,6 +60,7 @@ div {
   margin-left: 15em;
 }
 .button {
+  
   color: rgb(49, 0, 172);
   font-weight: bold;
   padding: 0.5em 3em;
@@ -77,6 +78,7 @@ div {
   border: 3px solid #f9ffd7;
 
   margin: 0px;
+  
   text-align: center;
 }
 .button:hover {
