@@ -1,0 +1,51 @@
+.header {
+  padding: 1em;
+  background-image: linear-gradient(
+    to bottom,
+
+    #521816,
+    #9f302c
+  );
+}
+.footer {
+  padding: 1em;
+  background-image: linear-gradient(
+    to bottom,
+
+    #68745b,
+    #292e24
+  );
+}
+.nenDo {
+  background-color: #9f302c;
+}
+.nenXanhReu {
+  background-color: #68745b;
+}
+form {
+  background-color: #f9ffd7;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #533306;
+  border-radius: 15px;
+  color: #533306;
+  padding: 1em;
+  padding-left: 1.5em;
+  margin: 1em;
+}
+textarea,
+select,
+input {
+  border: 1px solid #000000;
+  background-color: #f9ffd7;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #533306;
+  width: 94%;
+}
+button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 0.5em 4em;
+  background-color: rgb(255, 86, 24);
+}
