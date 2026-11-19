@@ -1,3 +1,7 @@
+
+p,h3{
+  font-size:1.2em;
+}
 .boxFadeDoXanh a {
   font-weight: bold;
   padding: 0.5em 2em;
@@ -19,16 +23,23 @@
   border: solid rgba(159, 48, 44, 1) 3px;
   font-weight: bold;
 }
+.tieudeaotuthan{
+  font-size:15em;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+  letter-spacing: 10px;
+  color: rgb(158, 48, 48);
 
+}
 .bia1 {
   padding: 1em;
   background-image: url("../images/aoTuThanBia1.png");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  text-align: center;
 }
 .bia2 {
-  padding: 1em;
   background-image: url("../images/aoTuThanBia2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -61,4 +72,22 @@ footer {
 
 h3{
   color: #c39a55;
+  margin-bottom:0px;
+  margin-top:0px;
+
+}
+.dangKyThamGia{
+  margin-top:px;
+}
+.yNghiaAoTuThan{
+  font-weight: lighter;
+  text-align:center;
+  font-size: 8.5em;
+  margin-bottom:0px;
+  margin-top:40px;
+}
+.yNghiaNoiDungAoTuThan{
+  margin-top:-55px;
+  padding:3em 5em;
+  font-size:120%;
 }
