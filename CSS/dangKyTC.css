@@ -1,13 +1,19 @@
 body {
-  background: white;
+  background: rgb(0, 0, 0);
 }
 .dangKy {
-  color: green;
+  color: hsl(169, 100%, 47%);
+  margin: 0;
+  padding: 0;
 }
 .ndDangKy {
-  color: rgb(0, 49, 0);
-  margin: 0px 20%;
-  font-size: 3em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  color: hsl(169, 100%, 74%);
+  margin: 1em 20%;
+
+  font-size: 2em;
+  text-align: justify;
 }
 div {
   margin: 0;
