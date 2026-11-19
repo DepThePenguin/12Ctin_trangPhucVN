@@ -60,6 +60,7 @@ div {
   margin-left: 15em;
 }
 .button1 {
+  font-size: 1em;
   color: rgb(49, 0, 172);
   font-weight: bold;
   padding: 0.5em 3em;
@@ -73,11 +74,12 @@ div {
     #fa9b88
   );
   border-radius: 20px;
-  border: 3px solid #f9ffd7;
+  border: 0px solid #f9ffd7;
   margin: 0px;
   text-align: center;
 }
 .button {
+  font-size: 1em;
   color: rgb(49, 0, 172);
   font-weight: bold;
   padding: 0.5em 3em;
