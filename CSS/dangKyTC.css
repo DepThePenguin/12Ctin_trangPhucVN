@@ -1,21 +1,53 @@
 body {
-  background: rgb(0, 0, 0);
+  background-image: url("../images/coGaiDoiNonDo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.DangKyTC {
+  background: #000101;
+  margin: 5em 30%;
+  opacity: 0.85;
+  border-radius: 20px;
+  padding: 0.5em 0px;
+}
+
 .dangKy {
-  color: hsl(169, 100%, 47%);
+  color: #fff2d8;
   margin: 0;
   padding: 0;
 }
 .ndDangKy {
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
-  color: hsl(169, 100%, 74%);
-  margin: 1em 20%;
 
-  font-size: 2em;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fffdfa;
+  margin: 1em 10%;
+  font-size: 1.5em;
   text-align: justify;
 }
 div {
   margin: 0;
   padding: 0;
+}
+.button1 {
+  font-size: 1em;
+  color: rgb(49, 0, 172);
+  font-weight: bold;
+  padding: 0.5em 3em;
+  background-image: linear-gradient(
+    to right,
+    white,
+    hsl(169, 100%, 74%),
+    hsl(169, 100%, 74%),
+    hsl(169, 100%, 74%),
+    hsl(169, 100%, 74%),
+    white
+  );
+  border-radius: 20px;
+  border: 0px solid #f9ffd7;
+  margin: 0px;
+  text-align: center;
 }
