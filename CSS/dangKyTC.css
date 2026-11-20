@@ -1,5 +1,5 @@
 body {
-  background-color: #fcffea;
+  background-image: url("../images/coGaiDoiNonDo.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -34,8 +34,8 @@ div {
 }
 .button1 {
   font-size: 1em;
-  color: rgb(49, 0, 172);
-  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
   padding: 0.5em 3em;
   background-image: linear-gradient(
     to right,
@@ -50,4 +50,8 @@ div {
   border: 0px solid #f9ffd7;
   margin: 0px;
   text-align: center;
+}
+.button1:hover {
+  font-size: 1.2em;
+  opacity: 80%;
 }
