@@ -2,6 +2,7 @@ body {
   background-color: #fcffea;
   color: #030405;
   font-family: "Times New Roman", Times, serif;
+  margin: 1em 0px;
 }
 
 legend {
@@ -102,4 +103,18 @@ div {
 .button:hover {
   background-color: black;
   opacity: 80%;
+}
+.nutDK {
+  font-size: 1em;
+  color: #f9ffd7;
+  background-color: #754501cc;
+
+  text-align: center;
+}
+.nutDK:hover {
+  font-size: 1em;
+  color: #f9ffd7;
+  background-color: #422700;
+
+  text-align: center;
 }
