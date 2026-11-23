@@ -13,7 +13,9 @@
   background-color: #f9ffd7;
   font-family: "ABeeZee";
 }
-
+.khongxuongdong {
+  white-space: nowrap;
+}
 .nenCoGaiKoDoiNonTC {
   padding: 1em;
   background-image: url("../images/coGaiKoDoiNonTC.png");
