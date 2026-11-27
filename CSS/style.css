@@ -263,3 +263,31 @@ h3 {
 .CocoGothic {
   font-family: "Coco Gothic";
 }
+@font-face {
+  font-family: "Cubano";
+  src: url("fonts/iCielBCCubano-Normal.otf");
+}
+.Cubano {
+  font-family: "Cubano";
+}
+@font-face {
+  font-family: "Latoden";
+  src: url("fonts/Lato\ Black.ttf");
+}
+.Latoden {
+  font-family: "Latoden";
+}
+@font-face {
+  font-family: "Latobold";
+  src: url("fonts/Lato\ Bold.ttf");
+}
+.Latobold {
+  font-family: "Latobold";
+}
+@font-face {
+  font-family: "Latore";
+  src: url("fonts/Lato\ Regular.ttf");
+}
+.Latore {
+  font-family: "Latore";
+}
