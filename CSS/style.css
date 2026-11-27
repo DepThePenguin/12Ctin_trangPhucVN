@@ -24,6 +24,15 @@ footer h3 {
   margin: 0;
   line-height: 1.2;
 }
+
+footer table {
+width: 100%;
+}
+
+footer table td {
+width: 33%;
+text-align: center;
+}
 /*từ đây*/
 
 .nav-table {
