@@ -93,7 +93,45 @@ button {
 }
 
 .middle {
-  text-align: center; 
-  margin-bottom: 10px;
-  font-size: 100px;
+  text-align: center;
+}
+
+.khung-chia-se {
+  width: 100%;
+  min-height: auto;
+  background-color: #68745b;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 100px;
+  box-sizing: border-box;
+}
+
+.cot-chu {
+  text-align: left;       
+}
+
+.cot-chu .chu-nghieng {
+  padding: 0;
+  font-size: 20px;           
+  margin: 0 0 12px 0;
+}
+
+.cot-chu h1 {
+  margin: 0;
+  font-size: 5.5em;
+  line-height: 1.1;
+}
+
+.form-chia-se {
+  width: 440px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .khung-chia-se {
+    flex-direction: column;
+    gap: 32px;
+  }
 }
