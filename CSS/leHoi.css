@@ -54,3 +54,40 @@ button {
   margin-top: 20px;
   background-color: rgb(246, 147, 42);
 }
+.nenlehoi {
+  width: 420px;
+  height: 750px; 
+  background-image: url("../images/leHoi.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.nenlehoi h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.nenlehoi p {
+  margin: 0 0 18px 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.boxlehoi {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(112, 27, 23, 0.85);
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+}
