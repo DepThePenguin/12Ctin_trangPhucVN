@@ -14,6 +14,16 @@ header{
   padding: 0px;
   
 }
+footer td {
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+footer h3 {
+  margin: 0;
+  line-height: 1.2;
+}
 /*từ đây*/
 
 .nav-table {
