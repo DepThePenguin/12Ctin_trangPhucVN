@@ -83,11 +83,17 @@ button {
   display: block;
   width: 100%;
   padding: 10px 0;
-  background-color: rgba(112, 27, 23, 0.85);
+  background-color: rgba(224, 90, 83, 0.85);
   color: #ffffff;
   text-align: center;
   text-decoration: none;
   border-radius: 999px;
   font-size: 13px;
   font-weight: 600;
+}
+
+.middle {
+  text-align: center; 
+  margin-bottom: 10px;
+  font-size: 100px;
 }
