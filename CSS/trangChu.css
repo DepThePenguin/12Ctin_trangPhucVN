@@ -38,7 +38,7 @@
     rgba(192, 192, 192, 0.2)
   );
   border: solid rgba(204, 153, 51, 0.9) 3px;
-  border-radius: 555px;
+  border-radius: 333px;
   overflow: hidden;
 }
 .boxTrongSuot a:hover {
@@ -48,7 +48,6 @@
     #c39a55
   );
   border: solid rgba(204, 153, 51, 0.9) 3px;
-  border-radius: 555px;
   color: black;
 }
 
@@ -61,7 +60,7 @@
     rgba(159, 48, 44, 0.9),
     rgba(3, 4, 5, 0.9)
   );
-  border-radius: 555px;
+  border-radius: 333px;
   border: solid rgba(159, 48, 44, 1) 3px;
 }
 .boxFadeDoDen a:hover {
