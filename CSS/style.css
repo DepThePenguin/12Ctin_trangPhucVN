@@ -9,10 +9,12 @@ body {
 footer {
   padding-top: 110px;
 }
-header{
+header {
   width: inherit;
   padding: 0px;
-  
+}
+table {
+  width: 100%;
 }
 footer td {
   vertical-align: middle;
@@ -26,12 +28,12 @@ footer h3 {
 }
 
 footer table {
-width: 100%;
+  width: 100%;
 }
 
 footer table td {
-width: 33%;
-text-align: center;
+  width: 33%;
+  text-align: center;
 }
 /*từ đây*/
 
@@ -48,7 +50,7 @@ text-align: center;
 
 .left h2 {
   margin: 0;
-  font-size:2em;
+  font-size: 2em;
 }
 
 .right {
