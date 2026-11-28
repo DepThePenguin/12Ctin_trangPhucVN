@@ -59,6 +59,13 @@ p,h3{
   text-align: right;
 }
 
+.bia3x {
+  padding: 1em;
+  background-image: url("../images/aoTuThanBia3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
 .nenFadeDoVang {
   padding: 1em;
   background-image: linear-gradient(
@@ -83,7 +90,7 @@ h3{
 
 }
 .dangKyThamGia{
-  margin-top:px;
+  margin-top: 20px;
 }
 .yNghiaAoTuThan{
   font-weight: lighter;
