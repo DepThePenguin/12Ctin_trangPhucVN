@@ -45,12 +45,18 @@ p,h3{
   background-size: cover;
   overflow: hidden;
 }
-.bia3x {
-  padding: 1em;
-  background-image: url("../images/aoTuThanBia3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+
+
+.tieuDeNho{
+  padding:20px 40px;
+  font-size:120%;
+  margin-left:-5px;
+  margin-right:40px;
+
+}
+.bia3 {
+  width: 55%;
+  text-align: right;
 }
 
 .nenFadeDoVang {
@@ -90,4 +96,61 @@ h3{
   margin-top:-55px;
   padding:3em 5em;
   font-size:120%;
+}
+.lichSuTuThan{
+  font-weight: lighter;
+  text-align:center;
+  font-size: 5em;
+  margin-bottom:-35px;
+  margin-top:100px;
+}
+
+/* Căn chỉnh toàn bộ khu vực phần 4 */
+.bia4 {
+  padding: 50px 0;
+}
+
+/* Trải rộng bảng sát hai bên hơn để không bị cách vào sâu */
+.bangCauTao {
+  width: 96%; /* Tăng lên 96% để bớt cách lề trái/phải */
+  max-width: 1400px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+/* Cột chữ bên trái */
+.cotChu {
+  width: 53%;
+  padding-left: 20px; /* Cách lề trái vừa phải, không bị thụt sâu */
+  padding-right: 25px; /* Kéo gần lại với cột ảnh */
+  vertical-align: middle;
+}
+
+/* Căn giữa chữ 03 · CẤU TẠO và tăng cỡ chữ tương xứng các mục trước */
+.tieuDeCauTao {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+/* Tăng cỡ chữ đoạn văn và danh sách cho cân đối với các bìa */
+.cotChu p,
+.cotChu li {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Cột ảnh bên phải */
+.cotHinh {
+  width: 47%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Ảnh gọn gàng, kéo sát vào cột chữ */
+.anhCauTao {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: inline-block;
 }
